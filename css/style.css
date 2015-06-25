@@ -169,6 +169,22 @@ p a:hover {
     text-align: center;
     margin:10px;
 }
+.button2 {
+
+    border: 2px solid white;
+    color: #FFFFFF;
+    font-family: 'latolight', sans-serif;
+    
+
+    padding:20px 25px;
+    font-size: 20px;
+    min-width: 150px;
+    line-height: 90px;
+    
+	font-weight: bold;
+    text-align: center;
+    margin:10px;
+}
 
 .button:hover {
 	background: #FDFFFF;
@@ -302,6 +318,9 @@ p a:hover {
 
 .cbp-so-side-left img {
 	float: right;}
+	
+.cbp-so-side-center img {
+	float: center;}
 
 /* Initial state (hidden or anything else) */
 .cbp-so-init .cbp-so-side {
@@ -316,11 +335,17 @@ p a:hover {
 	-webkit-transform: translateX(80px);
 	-moz-transform: translateX(80px);
 	transform: translateX(80px);}
+	
+.cbp-so-init .cbp-so-side-center{
+	-webkit-transform: translateX(80px);
+	-moz-transform: translateX(80px);
+	transform: translateX(80px);}
 
 /* Animated state */
 /* add you final states (transition) or your effects (animations) for each side */
 .cbp-so-section.cbp-so-animate .cbp-so-side-left,
-.cbp-so-section.cbp-so-animate .cbp-so-side-right {
+.cbp-so-section.cbp-so-animate .cbp-so-side-right,
+.cbp-so-section.cbp-so-animate .cbp-so-side-center {
 	-webkit-transform: translateX(0px);
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
